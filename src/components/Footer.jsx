@@ -19,37 +19,37 @@ const Footer = () => {
     {
       name: 'GitHub',
       icon: <FaGithub className="w-5 h-5" />,
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Aamer2005',
       color: 'hover:bg-gray-600',
-      username: '@yourusername'
+      username: 'Aamer2005'
     },
     {
       name: 'LinkedIn',
       icon: <FaLinkedin className="w-5 h-5" />,
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://www.linkedin.com/in/aamer2005/',
       color: 'hover:bg-blue-600',
-      username: 'yourusername'
+      username: 'Mohammed Aamer'
     },
     {
       name: 'LeetCode',
       icon: <SiLeetcode className="w-5 h-5" />,
-      url: 'https://leetcode.com/yourusername',
+      url: 'https://leetcode.com/Aamer2005',
       color: 'hover:bg-yellow-600',
-      username: 'yourusername'
+      username: 'Aamer2005'
     },
-    {
-      name: 'Twitter',
-      icon: <FaTwitter className="w-5 h-5" />,
-      url: 'https://twitter.com/yourusername',
-      color: 'hover:bg-blue-400',
-      username: '@yourusername'
-    },
+    // {
+    //   name: 'Twitter',
+    //   icon: <FaTwitter className="w-5 h-5" />,
+    //   url: 'https://twitter.com/yourusername',
+    //   color: 'hover:bg-blue-400',
+    //   username: '@yourusername'
+    // },
     {
       name: 'Email',
       icon: <FaEnvelope className="w-5 h-5" />,
-      url: 'mailto:your.email@gmail.com',
+      url: 'mailto:mdaamer2005@gmail.com',
       color: 'hover:bg-red-500',
-      username: 'your.email@gmail.com'
+      username: 'mdaamer2005@gmail.com'
     }
   ];
 
@@ -81,19 +81,16 @@ const Footer = () => {
             <h3 className="text-2xl font-bold text-white">
               Mohammed Aamer
             </h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              Building modern web experiences with passion and precision. 
-              Specializing in React, JavaScript, and full-stack development.
-            </p>
+           
             <div className="flex space-x-2">
               <span className="px-2 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full">
-                React
+                Tailwind CSS
               </span>
               <span className="px-2 py-1 bg-green-600/20 text-green-400 text-xs rounded-full">
                 Node.js
               </span>
               <span className="px-2 py-1 bg-purple-600/20 text-purple-400 text-xs rounded-full">
-                TypeScript
+                React
               </span>
             </div>
           </div>
@@ -146,24 +143,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Newsletter / Contact */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold text-white">Get In Touch</h4>
-            <p className="text-gray-400 text-sm">
-              Have a project in mind? Let's work together!
-            </p>
-            <a
-              href="mailto:mdaamer2005@gmail.com"
-              className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-300 text-sm font-medium"
-            >
-              <FaEnvelope className="mr-2" />
-              Send Message
-            </a>
-            <div className="flex items-center space-x-2 text-gray-400 text-sm">
-              <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-              <span>Available for freelancing</span>
-            </div>
-          </div>
+          
         </div>
 
         {/* Divider */}

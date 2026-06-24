@@ -26,24 +26,34 @@ import {
 import { 
   VscCode 
 } from 'react-icons/vsc';
+import { FaJava, FaPython } from 'react-icons/fa';
+
+import {
+  SiExpress,
+  SiMysql,
+  SiCplusplus,
+  SiScikitlearn,
+  SiTensorflow
+} from 'react-icons/si';
 
 const About = () => {
   const skills = [
-    { name: 'React', icon: <FaReact className="text-4xl text-blue-500" /> },
-    { name: 'Next.js', icon: <SiNextdotjs className="text-4xl text-gray-800" /> },
-    { name: 'JavaScript', icon: <FaJsSquare className="text-4xl text-yellow-500" /> },
-    { name: 'TypeScript', icon: <SiTypescript className="text-4xl text-blue-600" /> },
-    { name: 'Tailwind', icon: <SiTailwindcss className="text-4xl text-cyan-500" /> },
-    { name: 'Node.js', icon: <FaNode className="text-4xl text-green-600" /> },
-    { name: 'Vue.js', icon: <FaVuejs className="text-4xl text-green-500" /> },
-    { name: 'MongoDB', icon: <SiMongodb className="text-4xl text-green-400" /> },
-    { name: 'Firebase', icon: <SiFirebase className="text-4xl text-yellow-600" /> },
-    { name: 'GraphQL', icon: <SiGraphql className="text-4xl text-pink-500" /> },
-    { name: 'Docker', icon: <SiDocker className="text-4xl text-blue-400" /> },
-    { name: 'Git', icon: <FaGitAlt className="text-4xl text-red-500" /> },
-    { name: 'HTML5', icon: <FaHtml5 className="text-4xl text-orange-500" /> },
-    { name: 'CSS3', icon: <FaCss3 className="text-4xl text-blue-400" /> },
-  ];
+  { name: 'HTML5', icon: <FaHtml5 className="text-4xl text-orange-500" /> },
+  { name: 'CSS3', icon: <FaCss3 className="text-4xl text-blue-400" /> },
+  { name: 'Tailwind', icon: <SiTailwindcss className="text-4xl text-cyan-500" /> },
+  { name: 'Java', icon: <FaJava className="text-4xl text-red-600" /> },
+  { name: 'C++', icon: <SiCplusplus className="text-4xl text-blue-500" /> },
+  { name: 'Python', icon: <FaPython className="text-4xl text-yellow-400" /> },
+  { name: 'React', icon: <FaReact className="text-4xl text-blue-500" /> },
+  { name: 'SQL', icon: <SiMysql className="text-4xl text-blue-600" /> },
+  { name: 'JavaScript', icon: <FaJsSquare className="text-4xl text-yellow-500" /> },
+  { name: 'Git', icon: <FaGitAlt className="text-4xl text-red-500" /> },
+  { name: 'Node.js', icon: <FaNode className="text-4xl text-green-600" /> },
+  { name: 'Express.js', icon: <SiExpress className="text-4xl text-gray-500" /> },
+  { name: 'MongoDB', icon: <SiMongodb className="text-4xl text-green-400" /> },
+  { name: 'Docker', icon: <SiDocker className="text-4xl text-blue-400" /> },
+ 
+];
 
   const duplicatedSkills = [...skills, ...skills];
 
@@ -59,15 +69,18 @@ const About = () => {
         
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-gray-600 text-lg leading-relaxed mb-6">
-            I'm a passionate Full Stack Developer with expertise in building modern,
-            responsive, and user-friendly web applications. With several years of
-            experience in the industry, I've worked with various technologies including
-            React, Next.js, Node.js, and various databases.
+            I am a <b>final-year B.Tech Information Technology student</b> with a strong passion for software development, machine learning, and data-driven solutions. I have hands-on experience in building modern, responsive, and user-friendly web applications using technologies such as React, Node.js, Express.js, and databases like MySQL and MongoDB.
+
+
           </p>
           <p className="text-gray-600 text-lg leading-relaxed">
-            I believe in writing clean, maintainable code and creating seamless user
-            experiences. I'm passionate about open source, cloud technologies, and
-            continuously learning new things to stay up-to-date with the latest trends.
+            In addition to full-stack development, I have worked on projects involving <b>Machine Learning, Deep Learning, and Data Analytics</b>, 
+            where I explored predictive modeling, data visualization, and intelligent systems. These experiences have helped me develop strong problem-solving, analytical, and software engineering skills.
+
+          </p>
+          <p className="text-gray-600 text-lg leading-relaxed">
+            I enjoy writing clean, maintainable code and continuously learning new technologies to stay updated with industry trends. I am currently seeking opportunities to apply my technical knowledge, contribute to impactful projects, and grow as a software engineer.
+
           </p>
         </div>
 

@@ -6,37 +6,35 @@ const Achievements = () => {
   const certificates = [
     {
       id: 1,
-      title: 'Frontend Development Certification',
-      issuer: 'Google',
-      date: '2024',
-      description: 'Completed advanced frontend development course covering React, Next.js, and modern JavaScript.',
-      image: '/certificates/frontend.jpg',
-      credentialId: 'ABCD-1234-EFGH',
-      link: 'https://example.com/verify',
-      skills: ['React', 'JavaScript', 'CSS']
+      title: 'SQL Micro Certificate',
+      issuer: 'Satish Dhawale',
+      date: '2025',
+      description: 'Completed the 30 days micro SQL course',
+      image: '../public/SQL_certificate.jpg',
+      link: 'https://drive.google.com/file/d/1KSumOkd63XJG5CuMnxJSlQ3o9LIIHSUS/view',
+      skills: ['SQL']
     },
     {
       id: 2,
-      title: 'JavaScript Advanced',
-      issuer: 'Microsoft',
-      date: '2023',
-      description: 'Mastered advanced JavaScript concepts including closures, promises, and async/await.',
-      image: '/certificates/javascript.jpg',
-      credentialId: 'WXYZ-5678-IJKL',
-      link: 'https://example.com/verify',
-      skills: ['JavaScript', 'ES6+', 'TypeScript']
+      title: 'Google Cloud Data Analytics Certificate',
+      issuer: 'Google',
+      date: '2025',
+      description: 'This certificate program prepares learners for cloud data analyst, cloud data technician, and cloud operations analyst roles.',
+      image: '../public/google_data_analytics.png',
+      link: 'https://www.credly.com/badges/795787b9-a214-4bd6-bc65-0734a9f0efe7/public_url',
+      skills: ['SQL','Python','Pandas','Big Query']
     },
-    {
+      {
       id: 3,
-      title: 'Full Stack Web Development',
-      issuer: 'Coursera',
-      date: '2024',
-      description: 'Completed comprehensive full stack development program.',
-      image: '/certificates/fullstack.jpg',
-      credentialId: 'MNOP-9012-QRST',
-      link: 'https://example.com/verify',
-      skills: ['Node.js', 'MongoDB', 'React']
-    }
+      title: 'Kaggle Python Certificate',
+      issuer: 'Kaggle',
+      date: '2026',
+      description: 'This is python begginer certificate',
+      image: '../public/Python_certificate.png',
+      link: 'https://www.kaggle.com/learn/certification/aamer2005/python',
+      skills: ['Python','Numpy','Pandas']
+    },
+
   ];
 
   const openModal = (cert) => {
@@ -149,9 +147,6 @@ const Achievements = () => {
               <p className="text-gray-600 mb-2">
                 <strong>Date:</strong> {selectedCert.date}
               </p>
-              <p className="text-gray-600 mb-4">
-                <strong>Credential ID:</strong> {selectedCert.credentialId}
-              </p>
               <p className="text-gray-700 mb-4">
                 {selectedCert.description}
               </p>
@@ -174,14 +169,9 @@ const Achievements = () => {
                   rel="noopener noreferrer"
                   className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg font-semibold text-center hover:bg-blue-700"
                 >
-                  Verify Certificate
+                  View Certificate
                 </a>
-                <button
-                  onClick={() => alert('Downloading certificate...')}
-                  className="px-4 py-2 border-2 border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-50"
-                >
-                  Download
-                </button>
+               
               </div>
             </div>
           </div>
