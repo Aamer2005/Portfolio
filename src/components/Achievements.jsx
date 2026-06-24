@@ -10,7 +10,7 @@ const Achievements = () => {
       issuer: 'Satish Dhawale',
       date: '2025',
       description: 'Completed the 30 days micro SQL course',
-      image: '../public/SQL_certificate.jpg',
+      image: '/SQL_certificate.jpg',
       link: 'https://drive.google.com/file/d/1KSumOkd63XJG5CuMnxJSlQ3o9LIIHSUS/view',
       skills: ['SQL']
     },
@@ -20,7 +20,7 @@ const Achievements = () => {
       issuer: 'Google',
       date: '2025',
       description: 'This certificate program prepares learners for cloud data analyst, cloud data technician, and cloud operations analyst roles.',
-      image: '../public/google_data_analytics.png',
+      image: '/google_data_analytics.png',
       link: 'https://www.credly.com/badges/795787b9-a214-4bd6-bc65-0734a9f0efe7/public_url',
       skills: ['SQL','Python','Pandas','Big Query']
     },
@@ -30,7 +30,7 @@ const Achievements = () => {
       issuer: 'Kaggle',
       date: '2026',
       description: 'This is python begginer certificate',
-      image: '../public/Python_certificate.png',
+      image: '/Python_certificate.png',
       link: 'https://www.kaggle.com/learn/certification/aamer2005/python',
       skills: ['Python','Numpy','Pandas']
     },
