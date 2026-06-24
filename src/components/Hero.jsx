@@ -17,7 +17,7 @@ const Hero = () => {
 
   // Function to handle resume download
   const handleResumeDownload = () => {
-    const resumeUrl = '/Resume.pdf';
+    const resumeUrl = 'Aamer_Resume_updated_june.pdf';
     window.open(resumeUrl, '_blank');
   };
 
